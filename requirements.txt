@@ -1,0 +1,9 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+docling
+faiss-cpu
+python-dotenv
+openai
+pydantic
+langchain
+numpy
