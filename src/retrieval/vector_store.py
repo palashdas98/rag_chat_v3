@@ -13,4 +13,4 @@ def add_to_index(embeddings, chunks, metadata):
 def retrieve(query_embedding, k=5):
     _, idxs = index.search(np.array([query_embedding]).astype("float32"), k)
     return [(documents[i], metadatas[i]) for i in idxs[0]]
-``
+
